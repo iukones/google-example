@@ -1,0 +1,74 @@
+/*------------------------------------*    #RESET
+\*------------------------------------*/
+/**
+ * 1) Border-Box http:/paulirish.com/2012/box-sizing-border-box-ftw/
+ */
+ * {
+    box-sizing: border-box; }
+
+  /**
+   * Zero out margin and padding on these elements
+   */
+  html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul, li, form, fieldset, legend, label, table, header, footer, nav, section, figure {
+    margin: 0;
+    padding: 0; }
+
+  /**
+   * Remove list styles from ordered and unordered lists by default
+   */
+  ol, ul {
+    list-style: none; }
+
+  /**
+   * Collapse borders on table's base styles
+   */
+  table {
+    border-collapse: collapse;
+    border-spacing: 0; }
+
+  /**
+   * Display block these elements
+   */
+  header, footer, nav, section, article, hgroup, figure {
+    display: block; }
+
+  /*------------------------------------*/
+
+body{
+    background: #fff;
+    color:  #222;
+    font-family: Arial, sans-serif;
+    height: 100%;
+    margin: 0;
+
+}
+header {
+    text-align: right;
+    background-color: lightgray;
+    font-size: 10pt;
+    /* position: absolute; */
+    /* top: -295px; */
+    /* right: 0; */
+    /* width: 100%; */
+    /* display: inline-block; */
+    /* float: right; */
+}
+.menu ul li {
+    display: inline-block;
+    margin: 15px 20px 15px 0;
+    /* float: right; */
+
+}
+
+footer{
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    /* line-height: 40px; */
+    /* min-width: 980px; */
+
+    bottom: 0;
+    font-size: 10pt;
+    height: 35px;
+    position: absolute;
+    width: 100%;
+}
