@@ -44,7 +44,7 @@ body{
 }
 header {
     text-align: right;
-    background-color: lightgray;
+    /* background-color: lightgray; */
     font-size: 10pt;
     /* position: absolute; */
     /* top: -295px; */
@@ -53,11 +53,17 @@ header {
     /* display: inline-block; */
     /* float: right; */
 }
-.menu ul li {
-    display: inline-block;
-    margin: 15px 20px 15px 0;
-    /* float: right; */
-
+header nav{
+  display: inline-block;  
+  margin-top: 20px;
+}
+header .img{
+  margin: 10px;
+  float: right;
+}
+header a{
+  padding-bottom: 0px;
+  margin: 5px;
 }
 
 footer{
