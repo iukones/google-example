@@ -26,8 +26,8 @@
 
             <form action="">
                 <div class="input-text">
-                    <input type="text" id="googlebox"/>
-                    <a href="http://" alt="Busqueda por voz"><span></span></a>
+                    <input type="text" id="googlebox" autofocus/>
+                    <a href="http://" alt="Busqueda por voz" aria-label="Busqueda por voz"><span></span></a>
                 </div>
 
                 <div class="input-button">
@@ -44,25 +44,40 @@
         </div>
     </section>
 
-    <footer>
-        <div>
-            <span>México</span>
+    <footer class="_footer-bottom">
+
+        <div class="_footer-bar">
+
+            <span id="fsl"><a href="http://">México</a></span>
+
         </div>
-        <div class="footer">
-            <ul>
-                <li><a href="http://">Publicidad</a></li>
-                <li><a href="http://">Negocios</a></li>
-                <li><a href="http://">acerca de</a></li>
-            </ul>
+
+        <div class="_footer-bar">
+
+            <span id="fsr">
+
+                <a href="/intl/en/policies/?fg=1">Privacidad</a>
+
+                <span>
+
+                    <a class="_Se" href="https://www.google.com.pk/preferences?hl=en">Condiciones</a>
+
+                </span>
+
+                <a class="_Se" href="https://www.google.com.pk/setprefdomain?prefdom=US&amp;prev=https://www.google.com/?gws_rd%3Dcr%26ei%3DKLSKU-D5OoWwO8nYgZAM&amp;sig=0_f9EvFx2clvudBfdBuSib1spSh2c%3D&amp;fg=1">Preferencias</a>
+
+            </span>
+
+            <span id="fsl">
+
+                <a href="/intl/en/ads/?fg=1">Publicidad</a>
+                <a class="_Se" href="/services/?fg=1">Negocios</a>
+                <a class="_Se" href="/intl/en/about.html?fg=1">Acerca de</a>
+
+            </span>
+
         </div>
-        <div class="footer-2">
-            <ul>
-                <li><a href="http://">Privacidad</a></li>
-                <li><a href="http://">Condiciones</a></li>
-                <li><a href="http://">Preferencias</a></li>
-                <li><a href="http://">Utilizar Google.com</a></li>
-            </ul>
-        </div>
+
     </footer>
 
     <script src="assets/js/scripts.js"></script>
